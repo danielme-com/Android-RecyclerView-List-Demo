@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">RecyclerView List Demo</string>
+    <string name="red">Red</string>
+    <string name="indigo">Indigo</string>#3F51B5
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>#4CAF50
+    <string name="blue">Blue</string>#2196F3
+    <string name="lime">Lime</string>
+    <string name="yellow">Yellow</string>>#FFEB3B
+    <string name="grey">Grey</string>#9E9E9E
+    <string name="bluegrey">Blue Grey</string>#607D8B
+    <string name="amber">Amber</string>#FFC107
+    <string name="teal">Teal</string>##009688
+    <string name="deeppurple">Deep Purple</string>#673AB7
+    <string name="cyan">Cyan</string>#00BCD4
+    <string name="brown">Brown</string>#795548
+
+</resources>
