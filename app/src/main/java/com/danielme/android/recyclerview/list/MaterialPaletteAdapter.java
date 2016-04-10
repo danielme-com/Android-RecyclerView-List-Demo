@@ -19,7 +19,9 @@ public class MaterialPaletteAdapter extends RecyclerView.Adapter<MaterialPalette
     private List<Color> data;
     private RecyclerViewOnItemClickListener recyclerViewOnItemClickListener;
 
-    public MaterialPaletteAdapter(@NonNull List<Color> data, RecyclerViewOnItemClickListener recyclerViewOnItemClickListener) {
+    public MaterialPaletteAdapter(@NonNull List<Color> data,
+                                  @NonNull RecyclerViewOnItemClickListener
+                                      recyclerViewOnItemClickListener) {
         this.data = data;
         this.recyclerViewOnItemClickListener = recyclerViewOnItemClickListener;
     }
@@ -27,8 +29,7 @@ public class MaterialPaletteAdapter extends RecyclerView.Adapter<MaterialPalette
     @Override
     public PaletteViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View row = LayoutInflater.from(parent.getContext()).inflate(R.layout.row, parent, false);
-        PaletteViewHolder pvh = new PaletteViewHolder(row, recyclerViewOnItemClickListener);
-        return pvh;
+        return new PaletteViewHolder(row);
     }
 
     @Override
@@ -47,21 +48,18 @@ public class MaterialPaletteAdapter extends RecyclerView.Adapter<MaterialPalette
         return data.size();
     }
 
-    public static class PaletteViewHolder extends RecyclerView.ViewHolder
-            implements View.OnClickListener{
+    class PaletteViewHolder extends RecyclerView.ViewHolder implements View
+        .OnClickListener {
         private View circleView;
         private TextView titleTextView;
         private TextView subtitleTextView;
 
-        private RecyclerViewOnItemClickListener recyclerViewOnItemClickListener;
 
-
-        public PaletteViewHolder(View itemView, RecyclerViewOnItemClickListener recyclerViewOnItemClickListener) {
+        public PaletteViewHolder(View itemView) {
             super(itemView);
             circleView = itemView.findViewById(R.id.circleView);
             titleTextView = (TextView) itemView.findViewById(R.id.titleTextView);
             subtitleTextView = (TextView) itemView.findViewById(R.id.subtitleTextView);
-            this.recyclerViewOnItemClickListener = recyclerViewOnItemClickListener;
             itemView.setOnClickListener(this);
         }
 
