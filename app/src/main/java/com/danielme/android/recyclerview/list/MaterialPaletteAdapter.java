@@ -58,8 +58,8 @@ public class MaterialPaletteAdapter extends RecyclerView.Adapter<MaterialPalette
         public PaletteViewHolder(View itemView) {
             super(itemView);
             circleView = itemView.findViewById(R.id.circleView);
-            titleTextView = (TextView) itemView.findViewById(R.id.titleTextView);
-            subtitleTextView = (TextView) itemView.findViewById(R.id.subtitleTextView);
+            titleTextView = itemView.findViewById(R.id.titleTextView);
+            subtitleTextView = itemView.findViewById(R.id.subtitleTextView);
             itemView.setOnClickListener(this);
         }
 
