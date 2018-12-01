@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/circleView"
-        android:layout_toRightOf="@+id/circleView"
         android:paddingLeft="@dimen/row_padding" />
 
     <TextView
@@ -30,7 +29,6 @@
         style="@style/RowSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/titleTextView"
         android:layout_alignStart="@+id/titleTextView"
         android:layout_below="@+id/titleTextView"
         android:paddingLeft="@dimen/row_padding" />
