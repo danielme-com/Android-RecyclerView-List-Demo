@@ -8,8 +8,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.danielme.android.recyclerview.list.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,13 +41,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         //HORIZONTAL
         //recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerView.addItemDecoration(new DividerItemDecoration(this));
 
+        recyclerView.addItemDecoration(new DividerItemDecoration(this));
     }
 
+    @SuppressWarnings("ResourceType")
     private void initColors() {
-        colors = new ArrayList<Color>();
-
+        colors = new ArrayList<>();
         colors.add(new Color(getString(R.string.blue), getResources().getString(R.color.blue)));
         colors.add(new Color(getString(R.string.indigo), getResources().getString(R.color.indigo)));
         colors.add(new Color(getString(R.string.red), getResources().getString(R.color.red)));
