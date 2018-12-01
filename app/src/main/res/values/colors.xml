@@ -12,9 +12,7 @@
     <item name="orange" type="color">#FF9800</item>
     <item name="blue" type="color">#2196F3</item>
     <item name="yellow" type="color">#FFEB3B</item>>
-    <item name="grey" type="color">#9E9E9E</item>
     <item name="bluegrey" type="color">#607D8B</item>
-    <item name="amber" type="color">#FFC107</item>
     <item name="teal" type="color">#009688</item>#009688
     <item name="deeppurple" type="color">#673AB7</item>
     <item name="cyan" type="color">#00BCD4</item>
