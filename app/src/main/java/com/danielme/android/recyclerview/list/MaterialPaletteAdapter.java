@@ -1,14 +1,12 @@
 package com.danielme.android.recyclerview.list;
 
 import android.graphics.drawable.GradientDrawable;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.danielme.android.recyclerview.list.R;
 
 import java.util.List;
 
