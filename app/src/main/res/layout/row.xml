@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/circleView"
-        android:paddingLeft="@dimen/row_padding" />
+        android:paddingLeft="@dimen/text_row_padding_image" />
 
     <TextView
         android:id="@+id/subtitleTextView"
@@ -31,6 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/titleTextView"
         android:layout_below="@+id/titleTextView"
-        android:paddingLeft="@dimen/row_padding" />
+        android:paddingLeft="@dimen/text_row_padding_image" />
 
 </RelativeLayout>
