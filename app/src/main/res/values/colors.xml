@@ -2,7 +2,6 @@
 <resources>
     <item name="primary" type="color">#9C27B0</item>
     <item name="primaryDark" type="color">#5C1760</item>
-    <item name="textColorPrimary" type="color">@android:color/white</item>
 
     <item name="text_grey" type="color">#8f8f8f</item>
 
