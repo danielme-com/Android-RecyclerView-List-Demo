@@ -3,8 +3,6 @@
     <item name="primary" type="color">#9C27B0</item>
     <item name="primaryDark" type="color">#5C1760</item>
 
-    <item name="text_grey" type="color">#8f8f8f</item>
-
     <item name="red" type="color">#F44336</item>
     <item name="indigo" type="color">#3F51B5</item>
     <item name="green" type="color">#4CAF50</item>
